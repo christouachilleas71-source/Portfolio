@@ -2,7 +2,7 @@
 A portfolio of my tech projects: self-built PCs, Arduino automation, Python experiments, and embedded systems. Showcasing hands-on coding, hardware skills, and innovation as I work toward a future in computer engineering. 🚀💻🤖
 # Achilleas' Tech Portfolio 💻⚡
 
-Hi! I’m Achilleas, 14, a self-taught PC builder, coder, and tinkerer. I turn ideas into real projects — from building PCs to creating smart devices with Python and Arduino.  
+Hi! I’m Achilleas, 14 years old, a self-taught PC builder, coder, and tinkerer. I turn ideas into real projects — from building PCs to creating smart devices with Python and Arduino.  
 
 ## Projects
 
