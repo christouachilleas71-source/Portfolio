@@ -39,7 +39,7 @@ Embedded systems • Automation logic
 ---
 
 ## 🎯 Goals
-#### Pursue advanced studies in Computer Engineering and continue developing high-impact technical systems and automation projects, with the long-term goal of contributing to leading technology companies such as NVIDIA, Microsoft, and Google.
+### Pursue advanced studies in Computer Engineering and continue developing high-impact technical systems and automation projects, with the long-term goal of contributing to leading technology companies such as NVIDIA, Microsoft, and Google.
 ---
 
 > Portfolio under continuous development.
