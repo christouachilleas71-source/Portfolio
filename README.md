@@ -1,7 +1,7 @@
 # 💻 Achilleas Christou — Engineering Portfolio
 
-## 🌐 **Live Website:** https://achilleaschristou.github.io  
-## 📌 GitHub Profile: https://github.com/achilleaschristou
+### 🌐 **Live Website:** https://achilleaschristou.github.io  
+### 📌 GitHub Profile: https://github.com/achilleaschristou
 
 ---
 
