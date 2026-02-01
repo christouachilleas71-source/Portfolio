@@ -1,0 +1,95 @@
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Servo.h>
+
+// OLED setup
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET    -1
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+// Pins
+const int trigPin = 9;
+const int echoPin = 10;
+const int ledPin = 13;
+
+Servo servo1;
+Servo servo2;
+
+// Threshold for hand detection (cm)
+const int thresholdDistance = 15;
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+
+  // Attach servos
+  servo1.attach(6);
+  servo2.attach(5);
+  servo1.write(90); // Center
+  servo2.write(90); // Center
+
+  // Initialize OLED
+  if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("SSD1306 allocation failed"));
+    for(;;);
+  }
+  display.clearDisplay();
+  display.setTextSize(2);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0,10);
+  display.println("Distance:");
+  display.display();
+  delay(1000);
+}
+
+long readDistance() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  long duration = pulseIn(echoPin, HIGH);
+  long distance = duration * 0.034 / 2;
+  return distance;
+}
+
+void loop() {
+  long distance = readDistance();
+  Serial.print("Distance: ");
+  Serial.println(distance);
+
+  // Display distance on OLED
+  display.clearDisplay();
+  display.setCursor(0,10);
+  display.setTextSize(2);
+  display.println("Distance:");
+  display.setCursor(0,40);
+  display.setTextSize(3);
+  display.print(distance);
+  display.println("cm");
+  display.display();
+
+  // Check if hand is close
+  if(distance <= thresholdDistance) {
+    // Blink LED once quickly
+    digitalWrite(ledPin, HIGH);
+    delay(200);
+    digitalWrite(ledPin, LOW);
+
+    // Move servos 90° left/right
+    servo1.write(0);   // Left
+    servo2.write(180); // Right
+    delay(1000);       // Hold 1 sec
+    servo1.write(90);  // Center
+    servo2.write(90);  // Center
+    delay(500);
+  }
+
+  delay(200); // Small delay between readings
+}
