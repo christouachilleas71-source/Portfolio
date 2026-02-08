@@ -20,6 +20,9 @@ Servo servo2;
 // Threshold for hand detection (cm)
 const int thresholdDistance = 15;
 
+// Mock variable for material type
+String materialType = "Unknown";
+
 void setup() {
   Serial.begin(9600);
 
@@ -39,10 +42,12 @@ void setup() {
     for(;;);
   }
   display.clearDisplay();
-  display.setTextSize(2);
+  display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0,10);
-  display.println("Distance:");
+  display.setCursor(0,0);
+  display.println("Distance: ");
+  display.setCursor(0,20);
+  display.println("Material: ");
   display.display();
   delay(1000);
 }
@@ -59,21 +64,23 @@ long readDistance() {
   return distance;
 }
 
+// Mock function to "detect" material
+String detectMaterial() {
+  // Replace this with real sensor/camera input
+  int randNum = random(0, 4);
+  switch(randNum){
+    case 0: return "Plastic";
+    case 1: return "Metal";
+    case 2: return "Paper";
+    case 3: return "Organic";
+    default: return "Unknown";
+  }
+}
+
 void loop() {
   long distance = readDistance();
   Serial.print("Distance: ");
   Serial.println(distance);
-
-  // Display distance on OLED
-  display.clearDisplay();
-  display.setCursor(0,10);
-  display.setTextSize(2);
-  display.println("Distance:");
-  display.setCursor(0,40);
-  display.setTextSize(3);
-  display.print(distance);
-  display.println("cm");
-  display.display();
 
   // Check if hand is close
   if(distance <= thresholdDistance) {
@@ -89,7 +96,25 @@ void loop() {
     servo1.write(90);  // Center
     servo2.write(90);  // Center
     delay(500);
+
+    // Detect material when hand is detected
+    materialType = detectMaterial();
   }
+
+  // Display distance and material on OLED
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setCursor(0,0);
+  display.print("Distance: ");
+  display.print(distance);
+  display.println("cm");
+
+  display.setCursor(0,20);
+  display.print("Material: ");
+  display.println(materialType);
+
+  display.display();
 
   delay(200); // Small delay between readings
 }
+
