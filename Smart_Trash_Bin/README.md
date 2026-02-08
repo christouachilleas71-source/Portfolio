@@ -11,7 +11,7 @@ This project combines, automation and c++ coding.
 - Modular and Futuristic
 
 ## 🛠 Technologies
-Arduino, (C++), sensors, motors
+Arduino, C++, sensors, motors
 
 ## 🎯 Objective
 Make the world a more enviromentally friendly place for all of us and reduce global waste ♻️
