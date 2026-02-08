@@ -1,6 +1,6 @@
 # 💻 Tech Portfolio of Achilleas Christou
 
-🌐 **Live Portfolio:** https://achilleaschristou.github.io  
+🌐 **Live Portfolio:** 
 📌 **GitHub:** https://github.com/achilleaschristou
 
 ---
