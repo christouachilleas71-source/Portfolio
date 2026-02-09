@@ -22,7 +22,11 @@
 ---
 
 ### 💻 First Custom Made Computer
-I built my first custom made PC at 13 years of age with absolutely no help, optimized it for maximum performance , undervolted and overclcoked my GPU and CPU and updated my BIOS to the latest version!
+
+- Built at 13 years old, fully independent
+- Optimized performance by undervolting & overclocking GPU and CPU
+- Updated BIOS to latest version
+
 
 🛠 **Technology:** BIOS • Hardware Assembly • Optimization  
 
