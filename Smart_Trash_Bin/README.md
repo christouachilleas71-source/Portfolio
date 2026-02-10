@@ -17,7 +17,7 @@ Arduino, C++, sensors, motors
 Make the world a more enviromentally friendly place for all of us and reduce global waste ♻️
 
 ## 📁 Structure
-- `/code` → https://github.com/achilleaschristou/Portfolio/blob/main/Smart_Trash_Bin/Code.txt
+- `/code` → https://github.com/achilleaschristou/Tech_Portfolio/blob/main/Smart_Trash_Bin/Code.txt
 
 ---
 
