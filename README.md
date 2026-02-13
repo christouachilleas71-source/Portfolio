@@ -5,10 +5,10 @@
 ## 🚀 Projects
 
 ### 🤖 Intelligent Trash Can
-- Detected hand motion using ultrasonic sensor  
-- Material recognition via laptop camera & Pictoblox ML  
-- Servo motor controls lid and rotating plate to sort trash  
-- OLED display shows material type  
+- Detected hand motion using ultrasonic sensor
+- Material selection via 4 color-coded buttons (Red → General, Blue → Plastic, Yellow → Glass, Black → Aluminium)
+- Servo motor controls lid and rotating plate to sort trash
+- OLED display shows material type
 - Companion app tracks bin fill levels
 
 
