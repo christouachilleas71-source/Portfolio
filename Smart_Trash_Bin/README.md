@@ -16,8 +16,7 @@ The smart trash bin works by first detecting a hand in front of the sensor. Then
 - Modular and Futuristic
 
 ## 🛠 Technologies Used
-Microcontroller: Kypruino / Arduino
-
+- Microcontroller: Kypruino / Arduino
 - Programming Languages: C++
 - Hardware: Ultrasonic sensor, servo motor, OLED display, buttons
 - Other Tools: Companion mobile app for bin monitoring
