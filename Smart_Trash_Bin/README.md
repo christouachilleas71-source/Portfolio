@@ -6,14 +6,13 @@ The smart trash bin works by first detecting a hand in front of the sensor. Then
 
 ---
 
-
-
-
 ## 🔧 Key Features
 - Motion detection and automatic lid operation
 - Material selection and sorting logic via buttons
 - Microcontroller control
 - Modular and Futuristic
+
+---  
 
 ## 🛠 Technologies Used
 - Microcontroller: Kypruino / Arduino
@@ -21,8 +20,12 @@ The smart trash bin works by first detecting a hand in front of the sensor. Then
 - Hardware: Ultrasonic sensor, servo motor, OLED display, buttons
 - Other Tools: Companion mobile app for bin monitoring
 
+---
+
 ## 🎯 Objective
 Make the world a more enviromentally friendly place for all of us and reduce global waste ♻️
+
+---
 
 ## 📁 Structure
 - `/code` → https://github.com/achilleaschristou/Tech_Portfolio/blob/main/Smart_Trash_Bin/Code.txt
