@@ -20,6 +20,19 @@ This project taught me a lot about **hardware, troubleshooting, and thinking thr
 
 ## 🛠 Components / Technologies
 
+Before Upgrading PC
+
+- **CPU:** Intel Core i3-12100F 
+- **Motherboard:** ASRock H610M-HDV/M.2 R2.0  
+- **RAM:** GSKILL Ripjaws DDR4-3200 CL16
+- **Storage:** TeamGroup MP33 1TB  
+- **PSU:** InterTech Argus (720W)  
+- **Cooling:** Intel Laminar RM1
+- **Peripherals:** Keychron C3 Pro, Razer Deathadder Essential, ACER K243YE 23.8" 100hz   
+
+
+After Upgrading PC
+
 - **CPU:** Intel Core i5-14400F 
 - **Motherboard:** ASRock H610M-HDV/M.2 R2.0  
 - **RAM:** GSKILL Ripjaws DDR4-3200 CL16
