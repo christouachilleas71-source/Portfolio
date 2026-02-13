@@ -2,7 +2,7 @@
 
 I built my very first fully functioning computer at **13 years old** — completely on my own. No help from anyone, not even YouTube. In just **30 minutes**, I assembled all the components, booted it for the first time, and it worked perfectly on the first try.  
 
-After that, I upgraded the **CPU, cooler, and PSU**, and even updated the BIOS to the latest version — all independently.  
+After that, I upgraded the **CPU, cooler, and PSU**, overclocked and undervolted my CPU and GPU and even updated the BIOS to the latest version — all independently.  
 
 This project taught me a lot about **hardware, troubleshooting, and thinking through problems**. It was the moment I realized I could tackle real engineering projects on my own.
 
@@ -45,10 +45,8 @@ The goal of this project was to **learn by doing**, understand how all the hardw
 
 ## 💡 Future Improvements
 
-- Custom water-cooling setup 💧  
-- Overclock CPU and benchmark performance ⚡  
+- Custom water-cooling setup 💧    
 - Dual-boot with Linux to experiment with different OS 🔄  
-- Document wiring and airflow optimization 📐  
 - Add system monitoring scripts for temperature and performance 📊  
 
 ---
