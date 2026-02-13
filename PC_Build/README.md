@@ -38,13 +38,8 @@ The goal of this project was to **learn by doing**, understand how all the hardw
 ---
 
 ## 📁 Project Structure
-
-- `/PC_Build/README.md` → This file (full explanation)  
-- `/PC_Build/photos` → Optional: photos of the build  
-- `/PC_Build/logs` → Optional: notes on BIOS updates or upgrades  
-
-You can link the folder on GitHub like this:  
-📁 Full Explanation on how the PC was built: [PC_Build Folder](https://github.com/achilleaschristou/Tech_Portfolio/tree/main/PC_Build)
+  
+- `/PC_Build/photos` → Optional: photos of the build   
 
 ---
 
