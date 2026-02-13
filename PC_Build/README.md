@@ -14,7 +14,8 @@ This project taught me a lot about **hardware, troubleshooting, and thinking thr
 - CPU, cooler, and PSU upgrades ⚡  
 - BIOS update and configuration 💾  
 - Independent troubleshooting and testing 🔍  
-- Fully operational on first boot ✅  
+- Fully operational on first boot ✅
+- Performance tweaks like overclocking and undervolting ⚡
 
 ---
 
