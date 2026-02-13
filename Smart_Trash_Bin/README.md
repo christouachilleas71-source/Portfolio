@@ -29,4 +29,6 @@ Make the world a more enviromentally friendly place for all of us and reduce glo
 
 ---
 
+## 🚀 Notes
+
 Created as an independent engineering project, it seeks to solve problems, improve efficiency, and implement smart automation.
