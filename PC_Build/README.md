@@ -47,7 +47,17 @@ The goal of this project was to **learn by doing**, understand how all the hardw
 
 - Custom water-cooling setup 💧    
 - Dual-boot with Linux to experiment with different OS 🔄  
-- Add system monitoring scripts for temperature and performance 📊  
+- Add system monitoring scripts for temperature and performance 📊
+
+---
+
+## 💻 Tech Stack:
+
+![Intel](https://img.shields.io/badge/Intel-%23106EBE.svg?style=for-the-badge&logo=intel&logoColor=white) ![ASRock](https://img.shields.io/badge/ASRock-%23E60012.svg?style=for-the-badge&logo=asrock&logoColor=white)
+![G.SKILL](https://img.shields.io/badge/G.SKILL-%23FF0000.svg?style=for-the-badge&logo=gskill&logoColor=white) ![TeamGroup](https://img.shields.io/badge/TeamGroup-%2300ADEF.svg?style=for-the-badge&logo=teamgroup&logoColor=white) ![Corsair](https://img.shields.io/badge/Corsair-%2300A4E4.svg?style=for-the-badge&logo=corsair&logoColor=white)  
+![Thermalright](https://img.shields.io/badge/Thermalright-%23FFCC00.svg?style=for-the-badge&logo=thermaltake&logoColor=black) ![Keychron](https://img.shields.io/badge/Keychron-%23000000.svg?style=for-the-badge&logo=keychron&logoColor=white) ![Razer](https://img.shields.io/badge/Razer-%2300FF00.svg?style=for-the-badge&logo=razer&logoColor=black)  
+![Acer](https://img.shields.io/badge/Acer-%2300A2E8.svg?style=for-the-badge&logo=acer&logoColor=white)  
+
 
 ---
 
