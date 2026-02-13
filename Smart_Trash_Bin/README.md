@@ -13,7 +13,7 @@ This project combines, automation and C++ programming.
 
 ## 🔧 Key Features
 - Motion detection and automatic lid operation
-- Material recognition and sorting logic
+- Material selection and sorting logic via buttons
 - Microcontroller control
 - Modular and Futuristic
 
