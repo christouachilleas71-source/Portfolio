@@ -43,12 +43,14 @@ Make the world a more enviromentally friendly place for all of us and reduce glo
 ## 💻 Tech Stack:
 
 ![Arduino](https://img.shields.io/badge/Arduino-%23007396.svg?style=for-the-badge&logo=arduino&logoColor=white) 
-![Kypruino](https://img.shields.io/badge/Kypruino-%23FF9900.svg?style=for-the-badge&logo=arduino&logoColor=white) ![Servo Motors](https://img.shields.io/badge/Servo_Motors-%23FF6600.svg?style=for-the-badge)
-![Ultrasonic Sensor](https://img.shields.io/badge/Ultrasonic_Sensor-%2300CCFF.svg?style=for-the-badge) ![OLED Display](https://img.shields.io/badge/OLED_Display-%23000000.svg?style=for-the-badge&logo=adobe&logoColor=white) 
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)  
+![Kypruino](https://img.shields.io/badge/Kypruino-%23FF9900.svg?style=for-the-badge&logo=arduino&logoColor=white)  
+![Servo Motors](https://img.shields.io/badge/Servo_Motors-%23FF6600.svg?style=for-the-badge)  
+![Ultrasonic Sensor](https://img.shields.io/badge/Ultrasonic_Sensor-%2300CCFF.svg?style=for-the-badge)  
+![OLED Display](https://img.shields.io/badge/OLED_Display-%23000000.svg?style=for-the-badge&logo=adobe&logoColor=white)   
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)  
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Mobile App](https://img.shields.io/badge/Mobile_App-%23FFCC00.svg?style=for-the-badge)  
-
-
+ 
 ---
 
 ## 🚀 Notes
