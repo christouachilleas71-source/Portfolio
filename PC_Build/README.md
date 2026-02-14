@@ -56,7 +56,9 @@ The goal of this project was to **learn by doing**, understand how all the hardw
   
 ### 📸 Build Photos
 
-https://github.com/achilleaschristou/Tech_Portfolio/blob/main/PC_Build/20260214_114056.jpg
+
+<img src=https://github.com/achilleaschristou/Tech_Portfolio/blob/main/PC_Build/20260214_114056.jpg width="400" height="600">
+<img src=>
 
 ---
 
