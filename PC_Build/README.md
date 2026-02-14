@@ -24,7 +24,8 @@ This project taught me a lot about **hardware, troubleshooting, and thinking thr
 Before Upgrading PC
 
 - **CPU:** Intel Core i3-12100F 
-- **Motherboard:** ASRock H610M-HDV/M.2 R2.0  
+- **Motherboard:** ASRock H610M-HDV/M.2 R2.0
+- **GPU:** ASRock RX 6600 Challenger 8GB
 - **RAM:** GSKILL Ripjaws DDR4-3200 CL16
 - **Storage:** TeamGroup MP33 1TB  
 - **PSU:** InterTech Argus (720W)  
@@ -36,7 +37,8 @@ Before Upgrading PC
 After Upgrading PC
 
 - **CPU:** Intel Core i5-14400F 
-- **Motherboard:** ASRock H610M-HDV/M.2 R2.0  
+- **Motherboard:** ASRock H610M-HDV/M.2 R2.0
+- **GPU:** ASRock RX 6600 Challenger 8GB
 - **RAM:** GSKILL Ripjaws DDR4-3200 CL16
 - **Storage:** TeamGroup MP33 1TB  
 - **PSU:** Corsair CX550 (550W)  
