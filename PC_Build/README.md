@@ -54,11 +54,9 @@ The goal of this project was to **learn by doing**, understand how all the hardw
 
 ## 📁 Project Structure
   
-- ### 📸 Build Photos
+### 📸 Build Photos
 
-![PC Build 1](PC_Build/photos/build1.jpg)
-![PC Build 2](PC_Build/photos/build2.jpg)
-
+https://github.com/achilleaschristou/Tech_Portfolio/blob/main/PC_Build/20260214_114056.jpg
 
 ---
 
